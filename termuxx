@@ -1,0 +1,18 @@
+#!/bin/bash 
+
+echo "Limpando cache do termux"
+
+sleep 4s 
+
+ apt-get autoremove
+
+sleep 4s 
+
+apt-get autoclean
+
+sleep 4s 
+
+apt-get autoclean
+ 
+
+echo "Limpeza do Linux foi feita com sucesso
