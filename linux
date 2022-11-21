@@ -1,0 +1,13 @@
+#!/bin/bash 
+
+echo "Limpando cache do linux"
+
+sleep 4s 
+
+sudo apt-get autoremove
+
+sleep 4s 
+
+sudo apt-get autoclean
+
+echo "Limpeza do Linux foi feita com sucesso
